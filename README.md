@@ -10,6 +10,18 @@ sofaload is benchmarking tool for SOFARPC. It is extended from [h2load](https://
 
 # Build
 
+## dependencies
+
+```
+autogen-libopts
+autoconf
+autoconf-archive
+automake
+
+c-ares >= 1.16.0
+openssl >= 1.1.1
+```
+
     autoreconf -i
     automake
     autoconf
